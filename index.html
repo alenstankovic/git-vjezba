@@ -1,5 +1,55 @@
-<h1>Dobrodošli</h1>
-<p>Ovo je vježba za Git.</p>
-<p>O meni: učim Git.</p>
-<p>Kontakt: alen@primjer.com</p>
-<p>Pola posla</p>
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moj prvi Git projekat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Git vježba</a>
+            <ul>
+                <li><a href="#o-meni">O meni</a></li>
+                <li><a href="#napredak">Napredak</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Dobrodošli</h1>
+            <p>Ovo je vježba za Git.</p>
+        </section>
+
+        <section id="o-meni">
+            <h2>O meni</h2>
+            <p>Učim Git: kako pratiti promjene, raditi s granama i surađivati preko GitHuba.</p>
+        </section>
+
+        <section id="napredak">
+            <h2>Napredak</h2>
+            <p>Pola posla je već iza mene.</p>
+            <div class="progress"><div class="progress-bar" style="width: 50%"></div></div>
+            <ul class="checklist">
+                <li class="done">git init i prvi commit</li>
+                <li class="done">Grane i merge</li>
+                <li class="done">Pull request na GitHubu</li>
+                <li>Rješavanje konflikata</li>
+                <li>Rebase</li>
+            </ul>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>Email: <a href="mailto:alen@primjer.com">alen@primjer.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Moj prvi Git projekat</p>
+    </footer>
+</body>
+</html>

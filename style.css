@@ -1,1 +1,74 @@
-h1 { color: blue; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    color: #1f2937;
+    background: #f5f7fb;
+}
+
+a { color: #2563eb; }
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+nav .logo { font-weight: 700; text-decoration: none; color: #1f2937; }
+nav ul { list-style: none; display: flex; gap: 1.25rem; }
+nav ul a { text-decoration: none; color: #4b5563; }
+nav ul a:hover { color: #2563eb; }
+
+main { max-width: 800px; margin: 0 auto; padding: 1rem; }
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+h1 { color: blue; font-size: 2.75rem; margin-bottom: 0.5rem; }
+.hero p { font-size: 1.2rem; color: #4b5563; }
+
+section:not(.hero) {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+h2 { margin-bottom: 0.75rem; }
+
+.progress {
+    height: 10px;
+    background: #e5e7eb;
+    border-radius: 999px;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+.progress-bar { height: 100%; background: #2563eb; }
+
+.checklist { list-style: none; }
+.checklist li { padding: 0.3rem 0; }
+.checklist li::before { content: "○ "; color: #9ca3af; }
+.checklist li.done::before { content: "✓ "; color: #16a34a; font-weight: 700; }
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #6b7280;
+    font-size: 0.9rem;
+}
