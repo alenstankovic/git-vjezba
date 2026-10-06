@@ -1,0 +1,2 @@
+Ova datoteka je nastala na grani demo-grana.
+Nakon merge-a ce se pojaviti i na main grani.
