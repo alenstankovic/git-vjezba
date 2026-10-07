@@ -67,6 +67,9 @@ h2 { margin-bottom: 0.75rem; }
 .checklist li::before { content: "○ "; color: #9ca3af; }
 .checklist li.done::before { content: "✓ "; color: #16a34a; font-weight: 700; }
 
+.skills { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.skills li { background: #eff6ff; color: #2563eb; padding: 0.25rem 0.75rem; border-radius: 999px; }
+
 footer {
     text-align: center;
     padding: 2rem 1rem;
